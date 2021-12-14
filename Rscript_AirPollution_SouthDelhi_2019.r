@@ -13,23 +13,6 @@
 # 
 #  Date: 14-12-2021
 #
-#
-#  ABSTRACT:
-#  Air pollution is one of the most pressing problems in India, 
-#  taking millions of lives annually. Despite unprecedented air quality deterioration,
-#  little is known about individuals' preferences for air quality improvement in India. 
-#  As a first step, this study presents results from a discrete choice experiment 
-#  eliciting the preferences for air quality improvement of inhabitants in South Delhi,
-#  India, which is part of the capital territory of Delhi and where air pollution is 
-#  causing extensive health hazards. Adequate knowledge about individuals' preferences
-#  can help in designing more effective health and environmental policies. 
-#  Overall, we find a significant willingness to pay for improving the air quality 
-#  in South Delhi. As expected, people with a higher level of education and a higher 
-#  income are more willing to pay to alleviate and prevent the effects of air pollution. 
-#  At the same time, significant gender effects are identified; 
-#  women seem to have more homogeneous preferences regarding air quality than men. 
-#  Furthermore, due to income inequalities, a significant number of 
-#  respondents are not willing to pay. 
 #  
 
 # Preliminaries
@@ -108,7 +91,7 @@ vector.household     <- data.MNL[which(data.MNL$choice.card == 1)   ,"Q23.househ
 ###################################################
 table(vector.educ, vector.income)
 #
-#   Real Data (nº of observations)
+#   Real Data (nÂº of observations)
 #                   income
 #                  1   2   3  
 #              1  34  13   1       
