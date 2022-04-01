@@ -24,7 +24,7 @@ library(gmnl)       # estimation of multinomial logit models with random coeffic
 library(mlogit)     # enables the estimation of the multinomial logit
 
 # Read database
-data.MNL <- read.delim("Data_AirPollution_SouthDelhi_2019.csv",
+data.MNL <- read.delim("Data_AirPollution_SouthDelhi_2022_04_01.csv",
                         header=TRUE,
                         stringsAsFactors=FALSE,
                         sep = ",", 
@@ -58,7 +58,7 @@ cat("*************************************************************","\n",
 data.MNL.mlogit <- mlogit.data(data.MNL,
                                id.var  = "id.individual",
                                choice  = "Q12.choice",
-                               varying = 11:26,            # columns containing attributes
+                               varying = 7:22,            # columns containing attributes
                                shape   = "wide",           # wide or long shape of the data
                                sep     = ".")              # how the number of alternative is separated from the attribute name
 
